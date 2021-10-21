@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<qualifiedTypeNameHistroy>
+    <fullyQualifiedTypeName name="com.commander4j.db.JDBWTScale"/>
+    <fullyQualifiedTypeName name="com.commander4j.db.JDBWTWorkstation"/>
+    <fullyQualifiedTypeName name="com.commander4j.util.JUtility"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
+    <fullyQualifiedTypeName name="java.sql.Timestamp"/>
+    <fullyQualifiedTypeName name="java.math.BigDecimal"/>
+</qualifiedTypeNameHistroy>

@@ -1,0 +1,3 @@
+/Users/dave/Commander4j/workspace.development/b5sftpGet
+com.commander4j.sftp.Transfer
+i4jruntime.jar sftpGet.jar sshj-0.31.0-javadoc.jar sshj-0.31.0-sources.jar asn-one-0.4.0-sources.jar asn-one-0.4.0-sources.jar bcprov-jdk15on-1.66-sources.jar eddsa-0.3.0-sources.jar jzlib-1.1.3-sources.jar log4j-api-2.14.0-sources.jar log4j-core-2.14.0-sources.jar log4j-slf4j-impl-2.11.2-sources.jar slf4j-api-1.7.30-sources.jar slf4j-jdk14-1.7.30-sources.jar slf4j-simple-1.7.30-sources.jar

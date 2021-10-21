@@ -1,0 +1,8 @@
+INDEX VERSION 1.4+/Users/dave/Commander4j/workspace.development/.metadata/.plugins/org.eclipse.wst.jsdt.core/indexes
+2869585740.index
+2258548693.index
+2310527933.index
+380755359.index
+2730467055.index
+525931959.index
+52245831.index
