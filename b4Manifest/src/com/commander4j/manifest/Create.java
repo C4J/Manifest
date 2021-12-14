@@ -8,6 +8,7 @@ import java.io.OutputStreamWriter;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
+import java.util.regex.Matcher;
 
 import org.apache.commons.io.FileUtils;
 
@@ -54,6 +55,7 @@ public class Create
 						switch (lineNumber)
 						{
 						case 1:
+							line = line.replaceFirst("^~", Matcher.quoteReplacement(System.getProperty("user.home")));
 							source = line;
 							break;
 						case 2:
@@ -70,6 +72,7 @@ public class Create
 						if (lineNumber == 3)
 						{
 							System.out.println("Invoking b4Manifest on " + test);
+							System.out.println("   Folder = " + source);
 							topLevel(new File(source));
 							
 							Collections.sort(includes);
