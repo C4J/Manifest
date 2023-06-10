@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<install4j version="10.0.1" transformSequenceNumber="10">
+<install4j version="10.0.5" transformSequenceNumber="10">
   <directoryPresets config="../../Distribution/java8/b4Manifest" />
-  <application name="Manifest" applicationId="9273-2811-0636-0713" mediaDir="../../../Distribution/java8/b4Manifest" lzmaCompression="true" shortName="manifest" publisher="David Garratt" publisherWeb="https://www.commander4j.com" version="1.01" allPathsRelative="true" macVolumeId="ca7a2e5d9be00764" javaMinVersion="1.8">
+  <application name="Manifest" applicationId="9273-2811-0636-0713" mediaDir="../../../Distribution/java8/b4Manifest" lzmaCompression="true" shortName="manifest" publisher="David Garratt" publisherWeb="https://www.commander4j.com" version="1.02" allPathsRelative="true" macVolumeId="ca7a2e5d9be00764" javaMinVersion="1.8">
     <languages>
       <additionalLanguages>
         <language id="ar" />
@@ -31,7 +31,7 @@
         <language id="tr" />
       </additionalLanguages>
     </languages>
-    <jreBundles jdkProviderId="Zulu" release="8 without JavaFX/8u322" />
+    <jreBundles jdkProviderId="Zulu" release="11/11.0.17" />
   </application>
   <files>
     <mountPoints>
