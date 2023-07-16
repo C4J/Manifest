@@ -29,7 +29,7 @@ public class Create
 
 		if (args.length == 0)
 		{
-			System.out.println("Syntax: b4Manifest manifest.name\n");
+			System.out.println("Syntax: b6Manifest manifest.name\n");
 			System.out.println("\n");
 			System.out.println("Parameter file contains a list parameters :-");
 			System.out.println("   Project base folder");
@@ -71,7 +71,7 @@ public class Create
 
 						if (lineNumber == 3)
 						{
-							System.out.println("Invoking b4Manifest on " + test);
+							System.out.println("Invoking b6Manifest on " + test);
 							System.out.println("   Folder = " + source);
 							topLevel(new File(source));
 							

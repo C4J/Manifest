@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<install4j version="10.0.5" transformSequenceNumber="10">
-  <directoryPresets config="../../Distribution/java8/b4Manifest" />
-  <application name="Manifest" applicationId="9273-2811-0636-0713" mediaDir="../../../Distribution/java8/b4Manifest" lzmaCompression="true" shortName="manifest" publisher="David Garratt" publisherWeb="https://www.commander4j.com" version="1.02" allPathsRelative="true" macVolumeId="ca7a2e5d9be00764" javaMinVersion="1.8">
+<install4j version="10.0.6" transformSequenceNumber="10">
+  <directoryPresets config="./b4Manifest.jar" />
+  <application name="Manifest" applicationId="9273-2811-0636-0713" mediaDir="../../../Distribution/java17/b6Manifest" lzmaCompression="true" shortName="manifest" publisher="David Garratt" publisherWeb="https://www.commander4j.com" version="2.00" allPathsRelative="true" macVolumeId="ca7a2e5d9be00764" javaMinVersion="17" javaMaxVersion="17">
     <languages>
       <additionalLanguages>
         <language id="ar" />
@@ -31,14 +31,14 @@
         <language id="tr" />
       </additionalLanguages>
     </languages>
-    <jreBundles jdkProviderId="Zulu" release="11/11.0.17" />
+    <jreBundles jdkProviderId="Zulu" release="17/latest" />
   </application>
   <files>
     <mountPoints>
       <mountPoint id="58" />
     </mountPoints>
     <entries>
-      <fileEntry mountPoint="58" file="./b4Manifest.jar" />
+      <fileEntry mountPoint="58" file="./b6Manifest.jar" />
     </entries>
   </files>
   <launchers>
@@ -46,7 +46,7 @@
       <executable name="manifest" executableDir="." redirectStderr="false" executableMode="console" />
       <java mainClass="com.commander4j.manifest.Create">
         <classPath>
-          <archive location="b4Manifest.jar" failOnError="false" />
+          <archive location="b6Manifest.jar" failOnError="false" />
         </classPath>
       </java>
     </launcher>

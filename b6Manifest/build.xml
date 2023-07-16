@@ -7,7 +7,7 @@
     <property name="dir.workspace" value="${dir.buildfile}/.."/>
     <property name="dir.jarfile" value="${dir.buildfile}"/>
     <target name="create_run_jar">
-        <jar destfile="${dir.jarfile}/b4Manifest.jar" filesetmanifest="mergewithoutmain">
+        <jar destfile="${dir.jarfile}/b6Manifest.jar" filesetmanifest="mergewithoutmain">
             <manifest>
                 <attribute name="Main-Class" value="com.commander4j.manifest.Create"/>
                 <attribute name="Class-Path" value="."/>
