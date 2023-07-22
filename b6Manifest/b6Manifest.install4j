@@ -31,7 +31,7 @@
         <language id="tr" />
       </additionalLanguages>
     </languages>
-    <jreBundles jdkProviderId="Zulu" release="17/latest" />
+    <jreBundles jdkProviderId="Zulu" release="17/17.0.7" />
   </application>
   <files>
     <mountPoints>
