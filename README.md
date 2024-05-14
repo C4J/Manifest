@@ -5,6 +5,6 @@ Example command line -
 
 java -jar b4Manifest.jar manifest.b5
 
-Requires Java 8
+Requires Java 8 or newer
 
 Some example configs are included.
