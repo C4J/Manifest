@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<install4j version="10.0.6" transformSequenceNumber="10">
+<install4j version="10.0.7" transformSequenceNumber="10">
   <directoryPresets config="./b4Manifest.jar" />
   <application name="Manifest" applicationId="9273-2811-0636-0713" mediaDir="../../../Distribution/java17/b6Manifest" lzmaCompression="true" shortName="manifest" publisher="David Garratt" publisherWeb="https://www.commander4j.com" version="2.00" allPathsRelative="true" macVolumeId="ca7a2e5d9be00764" javaMinVersion="17" javaMaxVersion="17">
     <languages>
@@ -31,7 +31,7 @@
         <language id="tr" />
       </additionalLanguages>
     </languages>
-    <jreBundles jdkProviderId="Zulu" release="17/17.0.7" />
+    <jreBundles jdkProviderId="Zulu" release="17/17.0.10" />
   </application>
   <files>
     <mountPoints>
