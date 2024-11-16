@@ -127,7 +127,11 @@ public class Create {
 		File[] subdirs = dir.listFiles();
 		for (File subdir : subdirs) {
 			if (subdir.isDirectory()) {
-				dirTree(subdir);
+				//Only include lib folder and root
+				if ((subdir.getAbsolutePath().toLowerCase().endsWith("target"+File.separator+"dependency"))==false)
+				{
+					dirTree(subdir);
+				}
 			} else {
 				doFile(subdir);
 			}

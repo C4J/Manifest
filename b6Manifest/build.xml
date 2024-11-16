@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<project default="create_run_jar" name="Create Runnable Jar for Project b4Manifest">
+<project default="create_run_jar" name="Create Runnable Jar for Project b6Manifest">
     <!--this file was created by Eclipse Runnable JAR Export Wizard-->
     <!--ANT 1.7 is required                                        -->
     <!--define folder properties-->
@@ -13,7 +13,7 @@
                 <attribute name="Class-Path" value="."/>
             </manifest>
             <fileset dir="${dir.jarfile}/bin"/>
-            <zipfileset excludes="META-INF/*.SF" src="${dir.jarfile}/lib/commons-io-2.13.0.jar"/>
+            <zipfileset excludes="META-INF/*.SF" src="${dir.jarfile}/lib/commons-io-2.16.1.jar"/>
         </jar>
     </target>
 </project>
