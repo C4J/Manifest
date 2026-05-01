@@ -1,0 +1,3 @@
+{c4j_src}
+com.commander4j.sftp.Start
+i4jruntime.jar sftpTransfer.jar 
