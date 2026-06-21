@@ -3,8 +3,8 @@
     <!--this file was created by Eclipse Runnable JAR Export Wizard-->
     <!--ANT 1.7 is required                                        -->
     <!--define folder properties-->
-    <property name="target" value="21"/>
-    <property name="source" value="21"/>
+    <property name="target" value="25"/>
+    <property name="source" value="25"/>
     <property name="dir.buildfile" value="."/>
     <property name="dir.workspace" value="${dir.buildfile}/.."/>
     <property name="dir.jarfile" value="${dir.buildfile}"/>
